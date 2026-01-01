@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 45vh;
+    /* background-color: aquamarine; */
+    border-radius: 15px;
+}
+
+.image .BB88{
+    width: 250px;
+    
+}
+
+.ct{
+    /* background-color: aqua; */
+    text-align: center;
+    /* margin-top: 1rem; */
+    
+}
+
+.ct .contact{
+    padding: 0.1rem;
+    /* margin-top: 0.4rem; */
+}
+
+.ct .contact .Telegram {
+    margin: 2rem;
+    background-color: rgb(219, 217, 215);
+    padding: 0.8rem;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.ct .contact .Telegram:hover{
+     margin: 1rem;
+     padding: 1rem;
+}
+
+.ct .contact .Facebook {
+    margin: 2rem;
+    background-color: rgb(219, 217, 215);
+    padding: 0.8rem;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.ct .contact .Facebook:hover{
+     margin: 1rem;
+     padding: 1rem;
+}
+
+.ct .contact .TikTok {
+    margin: 2rem;
+    background-color: rgb(219, 217, 215);
+    padding: 0.8rem;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+.ct .contact .TikTok:hover{
+     margin: 1rem;
+     padding: 1rem;
+}
+
+.Telegram a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(56, 140, 173);
+    gap: 1rem;
+    font-size: 30px;
+}
+
+.Facebook a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(10, 100, 179);
+    gap: 1rem;
+    font-size: 30px;
+}
+
+.TikTok a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(25, 25, 26);
+    gap: 1rem;
+    font-size: 30px;
+}
